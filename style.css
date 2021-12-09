@@ -1,0 +1,49 @@
+body {
+  color: white;
+}
+h2 {
+  font-family: "Big Shoulders Display", monospace;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+}
+img {
+  width: 35px;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+   margin: 0 auto;
+}
+.set-width {
+  width: 25%;
+  padding: 30px 0 25px 20px;
+}
+
+.yellow-container {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+}
+.blue-container {
+  background-color: hsl(184, 100%, 22%);
+  /* width: 25%; */
+}
+.green-container {
+  background-color: hsl(179, 100%, 13%);
+  /* width: 25%; */
+  border-radius: 0 5px 5px 0;
+}
+button {
+  background-color: white;
+  font-size: 8px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 30px 0 10px 0;
+  width: 75px;
+  border: 2px solid white;
+}
